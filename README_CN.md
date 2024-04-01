@@ -4,7 +4,7 @@ Languages: 中文 | [English](README.md)
 
 ## 简介
 
-Chat2DB-GLM是[Chat2DB](https://github.com/chat2db/Chat2DB/)开源项目的组成部分，旨在提供一个高效的途径，将自然语言查询转换为结构化的SQL语句。此次开源的[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-GLM-7B)模型，拥有7B参数，基于CodeLlama进行了精心微调。这一模型专为自然语言转SQL任务设计，支持多种SQL方言，并且具有高达16k的上下文长度处理能力。
+Chat2DB-GLM是[Chat2DB](https://github.com/chat2db/Chat2DB/)开源项目的组成部分，旨在提供一个高效的途径，将自然语言查询转换为结构化的SQL语句。此次开源的[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-SQL-7B)模型，拥有7B参数，基于CodeLlama进行了精心微调。这一模型专为自然语言转SQL任务设计，支持多种SQL方言，并且具有高达16k的上下文长度处理能力。
 
 ## 方言支持
 
@@ -47,7 +47,7 @@ print(response)
 | Chat2DB-SQL-7B |       14GB        |            20GB           |
 
 ## 模型下载
-- huggingface：[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-GLM-7B)
+- huggingface：[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-SQL-7B)
 - modelscope：[Chat2DB-SQL-7B](https://modelscope.cn/models/Chat2DB/Chat2DB-SQL-7B/summary)
 
 ## 贡献指南

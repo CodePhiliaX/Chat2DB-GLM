@@ -4,7 +4,7 @@ Languages: 中文 | [English](README.md)
 
 ## Introduction
 
-Chat2DB-GLM is a part of the open-source project [Chat2DB](https://github.com/chat2db/Chat2DB/), aimed at providing an efficient way to convert natural language queries into structured SQL statements. The open-sourced [Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-GLM-7B) model, with 7B parameters, has been fine-tuned based on CodeLlama. This model is specifically designed for the task of converting natural language to SQL, supports various SQL dialects, and is capable of handling up to 16k of context length.
+Chat2DB-GLM is a part of the open-source project [Chat2DB](https://github.com/chat2db/Chat2DB/), aimed at providing an efficient way to convert natural language queries into structured SQL statements. The open-sourced [Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-SQL-7B) model, with 7B parameters, has been fine-tuned based on CodeLlama. This model is specifically designed for the task of converting natural language to SQL, supports various SQL dialects, and is capable of handling up to 16k of context length.
 
 ## Dialect Support
 
@@ -49,7 +49,7 @@ print(response)
 | Chat2DB-SQL-7B  |             14GB               |                         20GB                         |
 
 ## Model Download
-- huggingface：[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-GLM-7B)
+- huggingface：[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-SQL-7B)
 - modelscope：[Chat2DB-SQL-7B](https://modelscope.cn/models/Chat2DB/Chat2DB-SQL-7B/summary)
 
 ## Contribution Guide
