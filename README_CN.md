@@ -31,7 +31,7 @@ Chat2DB-SQL-7B主要针对方言MySql、PostgreSQL和通用SQL进行了微调。
 ```python
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-model_path = "Chat2DB-GLM/Chat2DB-SQL-7B" # 此处可换成模型的本地路径
+model_path = "Chat2DB/Chat2DB-SQL-7B" # 此处可换成模型的本地路径
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto",trust_remote_code=True, torch_dtype=torch.float16,use_cache=True)
 pipe = pipeline(  "text-generation",model=model,tokenizer=tokenizer,return_full_text=False,max_new_tokens=100)
@@ -46,6 +46,9 @@ print(response)
 |:--------------:|:-----------------:|:-------------------------:|
 | Chat2DB-SQL-7B |       14GB        |            20GB           |
 
+## 模型下载
+- huggingface：[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-GLM-7B)
+- modelscope：[Chat2DB-SQL-7B](https://modelscope.cn/models/Chat2DB/Chat2DB-SQL-7B/summary)
 
 ## 贡献指南
 我们欢迎并鼓励社区成员对Chat2DB-GLM项目进行贡献。无论是通过报告问题、提出新功能，还是直接提交代码修复和改进，您的帮助都是非常宝贵的。

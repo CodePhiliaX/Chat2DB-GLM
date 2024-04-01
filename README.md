@@ -31,7 +31,7 @@ You can load the model via transformers and use the Chat2DB-SQL-7B model with th
 ```python
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-model_path = "Chat2DB-GLM/Chat2DB-SQL-7B" # This can be replaced with your local model path
+model_path = "Chat2DB/Chat2DB-SQL-7B" # This can be replaced with your local model path
 tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto", trust_remote_code=True, torch_dtype=torch.float16, use_cache=True)
 pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, return_full_text=False, max_new_tokens=100)
@@ -48,6 +48,9 @@ print(response)
 |:----------------|:-------------------------------:|:----------------------------------------------------:|
 | Chat2DB-SQL-7B  |             14GB               |                         20GB                         |
 
+## Model Download
+- huggingface：[Chat2DB-SQL-7B](https://huggingface.co/Chat2DB/Chat2DB-GLM-7B)
+- modelscope：[Chat2DB-SQL-7B](https://modelscope.cn/models/Chat2DB/Chat2DB-SQL-7B/summary)
 
 ## Contribution Guide
 We welcome and encourage community members to contribute to the Chat2DB-GLM project. Whether it's by reporting issues, proposing new features, or directly submitting code fixes and improvements, your help is invaluable.
