@@ -63,6 +63,6 @@ Improve Documentation: Contributions to best practices, example code, documentat
 
 
 ## License
-The model weights in this project are licensed under the CC BY-SA 4.0 license. You are free to use this model, but if you make modifications to it (such as fine-tuning), you must open source your modified weights under the same license terms. For specific terms, please refer to the LICENSE file.
+The model weights in this project is governed by a custom commercial license from Code Llama. For details, please visit: [Custom Commercial License](https://llama.meta.com/llama-downloads/)
 
 Before using this software, please ensure you have fully understood the terms of the license.
