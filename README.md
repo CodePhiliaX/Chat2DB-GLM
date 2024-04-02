@@ -1,6 +1,6 @@
 # Chat2DB-GLM
 
-Languages: 中文 | [English](README.md)
+Languages: English | [中文](README_CN.md)
 
 ## Introduction
 
